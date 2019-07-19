@@ -30,7 +30,7 @@ Rate limiting Rails App request by utilising Redis
 
 `bundle exec rspec`
 
-## Setup Rate Limit
+## Rate Limit Config
 config/limit-rules.yml
 
 ## Middleware file 
