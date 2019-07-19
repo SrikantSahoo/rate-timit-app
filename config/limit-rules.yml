@@ -1,0 +1,13 @@
+default: &default
+  # time period 
+  timespan: 3600
+  # maximum request allowed during above period
+  max_requests: 100
+  # feature enabled true/false
+  enabled: true
+development:
+  <<: *default
+test:
+  <<: *default
+production:
+  <<: *default
