@@ -23,7 +23,7 @@ Rate limiting Rails App request by utilising Redis
 
 `for ((i=1;i<=100;i++)); do   curl -v --header "Connection: keep-alive" "localhost:3000"; done`
 
-## Next time you run below you will get 429 response
+## Next time you run below, you will get 429 response
 `curl http://localhost:3000/`
 
 ## Run Tests
